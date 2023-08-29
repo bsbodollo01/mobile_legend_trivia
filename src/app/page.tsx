@@ -13,7 +13,7 @@ export default function Home() {
         //bg-gradient-to-r from-indigo-800 via-violet-700 to-purple-700
         <div className="w-full h-full bg-[url('/assets/svg/background.svg')] bg-cover bg-no-repeat bg-center text-white ">
             {loading ? (
-                <div className="w-[80vw] items-center mx-auto">
+                <div className="w-[80vw] items-center mx-auto space-y-10">
                     <NavbarView />
                     <HomeView />
                     <HeroesView />
@@ -23,7 +23,7 @@ export default function Home() {
                     <FootersView />
                 </div>
             ) : (
-                <div className="loading-wrapper">
+                <div className="w-full h-screen">
                     <div className="flex gap-8 items-center justify-center">
                         <span className="text-white font-display md:text-7xl">
                             Loading
