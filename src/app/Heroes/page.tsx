@@ -13,8 +13,8 @@ const HeroesView = () => {
         <div className="">
             <div className="flex justify-between pb-10">
                 <h1 className="text-4xl font-semibold">Mobile Legend Heroes</h1>
-                <button className="w-28 text-white text-lg rounded-lg px-5 py-2 bg-secondary-color">
-                    See all
+                <button className=" text-white text-lg rounded-lg px-7 py-3 bg-secondary-color">
+                    SEE ALL
                 </button>
             </div>
             <div className="grid grid-cols-5 gap-x-1">
@@ -22,11 +22,11 @@ const HeroesView = () => {
                     return (
                         <div className="">
                             <img
-                                className="w-72 h-[400px] cursor-pointer bg-gray-50 rounded-3xl filter shadow-xl shadow-slate-600 relative dark:bg-primary-500"
+                                className="w-72 h-[400px] cursor-pointer bg-gray-50 rounded-3xl"
                                 src={game.img}
                                 alt=""
                             />
-                            <h1 className="flex justify-center pt-3 text-lg">
+                            <h1 className="flex justify-center pt-7 text-lg">
                                 {game.name}
                             </h1>
                         </div>
