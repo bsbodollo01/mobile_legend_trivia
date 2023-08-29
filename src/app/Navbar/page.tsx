@@ -17,16 +17,16 @@ const NavbarView = () => {
                 </svg>
             </div>
             <div className="flex gap-x-14 items-center">
-                <h1 className="text-xl font-light hover:text-primary-color hover:underline">
+                <h1 className="text-xl font-light hover:text-primary-color">
                     Home
                 </h1>
-                <h1 className="text-xl font-light hover:text-primary-color hover:underline">
+                <h1 className="text-xl font-light hover:text-primary-color">
                     About Us
                 </h1>
-                <h1 className="text-xl font-light hover:text-primary-color hover:underline">
+                <h1 className="text-xl font-light hover:text-primary-color">
                     Portfolio
                 </h1>
-                <h1 className="text-xl font-light hover:text-primary-color hover:underline">
+                <h1 className="text-xl font-light hover:text-primary-color">
                     News
                 </h1>
                 <button className=" bg-primary-color px-5 py-3 text-base rounded-lg">
